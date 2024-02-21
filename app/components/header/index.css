@@ -1,0 +1,14 @@
+.header-container {
+    justify-content: space-around;
+}
+
+.icon-right-container {
+    padding-right: 100px;
+}
+
+.icon-right-img {
+    margin-left: 5px;
+}
+.nav-link{
+    color: black;
+}

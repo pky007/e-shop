@@ -1,0 +1,10 @@
+.card-container{
+    text-align: center;
+}
+.feature-heading{
+    font-weight: 600;
+}
+.description{
+    font-size: var(--heading3);
+    color: #999999;
+}
