@@ -7,7 +7,7 @@ type Props = {}
 function index({ }: Props) {
 
     return (
-        <div className='container'>
+        <div className='feature-container container'>
             <div className='row'>
                 <div className="col-3 card-container">
                     <Image className=""
