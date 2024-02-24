@@ -1,6 +1,5 @@
 import { HeaderRightIcons, NavLinks } from '@/app/utils/json'
 import Image from 'next/image'
-import React from 'react'
 import "./index.css"
 import Link from 'next/link'
 
