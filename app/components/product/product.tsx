@@ -1,37 +1,44 @@
 import Image from "next/image"
 import "./index.css"
+import { ProductType } from "@/app/utils/type"
 
 type Props = {}
-export default function index({ }: Props) {
+export default function index({ name,
+    price,
+    cutPrice,
+    status,
+    saleTag,
+    thumbnail,
+    inStock }: ProductType) {
     return (
-        <div className="card card-container-product" style={{ backgroundImage: `url(/images/products/product1.png)` }}>
-            <div className="card-top-left">
-                <span className="">Sale 50%</span>
-            </div>
+        <div className="card card-container-product" style={{ backgroundImage: `url(${thumbnail})` }}>
+            {saleTag && <div className="card-top-left">
+                <span className="">{saleTag}</span>
+            </div>}
             <div className="card-top-right">
                 <div>
-                <Image
-                    src={'/images/products/AddTowishlist.png'}
-                    width={40}
-                    height={40}
-                    alt="addToCart"
-                />
+                    <Image
+                        src={'/images/products/AddTowishlist.png'}
+                        width={40}
+                        height={40}
+                        alt="addToCart"
+                    />
                 </div>
                 <div className="view-icon">
-                <Image
-                    src={'/images/products/QuickView.png'}
-                    width={40}
-                    height={40}
-                    alt="addToCart"
-                />
+                    <Image
+                        src={'/images/products/QuickView.png'}
+                        width={40}
+                        height={40}
+                        alt="addToCart"
+                    />
                 </div>
             </div>
             <div className="card-bottom-left">
-                <div className="category-name">Green Apple</div>
+                <div className="product-name">{name}</div>
                 <div className="cart-container">
                     <div className="price_div">
-                        <span className="price-product">$14.99 </span>
-                        <span className="cut-price-product">$20.99</span>
+                        <span className="price-product">{price} </span>
+                        {cutPrice && <span className="cut-price-product">{cutPrice}</span>}
                     </div>
                 </div>
                 <div>

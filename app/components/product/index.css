@@ -1,6 +1,6 @@
 .card-container-product {
-    width: 312px;
-    height: 407px;
+    min-width: 312px;
+    min-height: 407px;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 8px;
@@ -10,7 +10,7 @@
     border: 1px solid #2C742F;
     box-shadow: 1px 1px 5px 1px #2C742F;
 }
-.category-name {
+.product-name {
     color: #4D4D4D;
     font-size: 14px;
 }
