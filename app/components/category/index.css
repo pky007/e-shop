@@ -1,0 +1,22 @@
+.category-card {
+    /* width: 200px; */
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.category-card:hover .category-name {
+    color: green;
+}
+
+.category-card:hover {
+    border: 1px solid #2C742F;
+    box-shadow: 1px 1px 5px #2C742F;
+}

@@ -8,3 +8,8 @@
     font-size: var(--heading3);
     color: #999999;
 }
+.feature-container{
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
