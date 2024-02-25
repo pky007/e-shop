@@ -47,7 +47,7 @@ export default function index({ name,
             </div>
             <div className="card-bottom-right">
                 <Image
-                    src={'/images/products/addtocart.png'}
+                    src={'/images/products/AddToCart.png'}
                     width={40}
                     height={40}
                     alt="addToCart"

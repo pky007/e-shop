@@ -7,6 +7,7 @@ import ProductSection from "./components/product/index"
 import CategorySection from "./components/category/index"
 import AdsSection from "./components/ads/index"
 import BigAdsSection from "./components/ads/bigAds"
+import MidAdsSection from "./components/ads/midAds"
 import "./index.css"
 import Footer from "./components/footer";
 
@@ -45,6 +46,7 @@ export default function Home() {
       
       <Layout>
       <ProductSection />
+      <MidAdsSection />
         </Layout>
       <Footer />
     </main>

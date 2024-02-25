@@ -10,7 +10,7 @@ function index({ }: Props) {
             heading=''
         >
             <AdsCard2
-                thumbnail='/images/ads/ad4.png'
+                thumbnail='/images/ads/ad5.png'
             />
         </SectionLayout>
     )
