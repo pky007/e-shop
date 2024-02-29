@@ -11,8 +11,6 @@ function DarkVariantExample() {
           src="/images/hero/BG4.png"
           alt="First slide"
         />
-        <Carousel.Caption>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -20,8 +18,6 @@ function DarkVariantExample() {
           src="/images/hero/BG4.png"
           alt="Second slide"
         />
-        <Carousel.Caption>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -29,8 +25,6 @@ function DarkVariantExample() {
           src="/images/hero/BG4.png"
           alt="Third slide"
         />
-        <Carousel.Caption>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

@@ -2,12 +2,26 @@
   --heading1: 18px;
   --heading2: 16px; 
   --heading3: 14px;
+
+
+
+/* colors */
+--color-soft-primary:#84D187;
+--color-primary:#00B207;
+--color-hard-primary:#2C742F;
+--color-warning:#FF8A00;
+--color-danger:#EA4B48;
+--color-white:#FFFFFF;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: var(--font-poppins);
 }
 
 /* html {
