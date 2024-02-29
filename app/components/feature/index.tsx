@@ -50,7 +50,6 @@ function index({ }: Props) {
                     <p className='description'>30 days money-back</p>
                 </div>
             </div>
-            <hr/>
         </div>
     )
 }

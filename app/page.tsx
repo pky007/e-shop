@@ -8,6 +8,8 @@ import CategorySection from "./components/category/index"
 import AdsSection from "./components/ads/index"
 import BigAdsSection from "./components/ads/bigAds"
 import MidAdsSection from "./components/ads/midAds"
+import Customer from "./components/customer/index"
+import Testimonials from "./components/customer/testimonials"
 import "./index.css"
 import Footer from "./components/footer";
 
@@ -41,13 +43,14 @@ export default function Home() {
         <AdsSection />
       </Layout>
       <Layout2>
-      <BigAdsSection />
+        <BigAdsSection />
       </Layout2>
-      
       <Layout>
-      <ProductSection />
-      <MidAdsSection />
-        </Layout>
+        <ProductSection />
+        <MidAdsSection />
+        <Customer/>
+        <Testimonials/>
+      </Layout>
       <Footer />
     </main>
   );
