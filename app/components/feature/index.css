@@ -1,16 +1,19 @@
 .card-container{
     text-align: center;
-    border-bottom: 1px solid #999999;
+    border-bottom: 3px solid var(--color-white);
 }
 .card-container:hover{
-    border-bottom: 3px solid #00B207;
+    border-bottom: 3px solid var(--color-primary);
+}
+.line-row{
+    border-bottom: 1px solid var(--color-gray);
 }
 .feature-heading{
     font-weight: 600;
 }
 .description{
     font-size: var(--heading3);
-    color: #999999;
+    color: var(--color-gray);;
 }
 .feature-container{
     padding-top: 24px;

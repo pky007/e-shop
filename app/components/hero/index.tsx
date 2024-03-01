@@ -1,39 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
+import { heroCarouselType } from '@/app/utils/type';
 import Carousel from 'react-bootstrap/Carousel';
 
-function DarkVariantExample() {
+function CarouselHeroSection({ data }: { data: heroCarouselType[] }) {
   return (
     <Carousel data-bs-theme="dark">
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/hero/BG4.png"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/hero/BG4.png"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/hero/BG4.png"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
+      {
+        data.map((item, index) => {
+          return (
+            <Carousel.Item key={index}>
+              <img
+                className="d-block w-100"
+                src={`${item.thumbnail}`}
+                alt="First slide"
+              />
+            </Carousel.Item>
+          )
+        })
+      }
+
     </Carousel>
   );
 }
 
-export default DarkVariantExample;
+export default CarouselHeroSection;

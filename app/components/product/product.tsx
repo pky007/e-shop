@@ -1,12 +1,14 @@
 import Image from "next/image"
 import "./index.css"
 import { ProductType } from "@/app/utils/type"
+import Rating from "../rating/index"
 
 type Props = {}
 export default function index({ name,
     price,
     cutPrice,
     status,
+    rating,
     saleTag,
     thumbnail,
     inStock }: ProductType) {
@@ -42,7 +44,7 @@ export default function index({ name,
                     </div>
                 </div>
                 <div>
-                    *****
+                  <Rating rating={rating}/>
                 </div>
             </div>
             <div className="card-bottom-right">
@@ -51,6 +53,7 @@ export default function index({ name,
                     width={40}
                     height={40}
                     alt="addToCart"
+                    className="product-add-to-cart"
                 />
             </div>
         </div>

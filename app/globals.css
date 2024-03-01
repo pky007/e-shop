@@ -2,12 +2,29 @@
   --heading1: 18px;
   --heading2: 16px; 
   --heading3: 14px;
+
+
+
+/* colors */
+--color-soft-primary:#84D187;
+--color-primary:#00B207;
+--color-hard-primary:#2C742F;
+--color-warning:#FF8A00;
+--color-danger:#EA4B48;
+--color-white:#FFFFFF;
+--color-gray:#999999;
+--color-hard-gray:#1A1A1A;
+--color-soft-gray:#4D4D4D;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: var(--font-poppins);
 }
 
 /* html {

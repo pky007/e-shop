@@ -1,4 +1,4 @@
-import { NavLinkType, HeaderRightIconType, ProductType, CategoryType, AdsType } from "./type";
+import { NavLinkType, HeaderRightIconType, ProductType, CategoryType, AdsType, heroCarouselType, FeatureType } from "./type";
 
 export const NavLinks: NavLinkType[] = [
     {
@@ -71,7 +71,8 @@ export const Products: ProductType[] = [
         status: true,
         thumbnail: '/images/products/product1.png',
         inStock: true,
-        saleTag: 'sale 50%'
+        saleTag: 'sale 50%',
+        rating: 5
     },
     {
         name: 'Chanise Cabbage',
@@ -80,7 +81,8 @@ export const Products: ProductType[] = [
         status: true,
         thumbnail: '/images/products/product2.png',
         inStock: true,
-        saleTag: 'sale 50%'
+        saleTag: 'sale 50%',
+        rating: 3
     },
     {
         name: 'Green Capsicum',
@@ -89,7 +91,8 @@ export const Products: ProductType[] = [
         status: true,
         thumbnail: '/images/products/product3.png',
         inStock: true,
-        saleTag: 'sale 50%'
+        saleTag: 'sale 50%',
+        rating: 4
     },
     {
         name: 'Surjapur Mango',
@@ -98,7 +101,38 @@ export const Products: ProductType[] = [
         status: true,
         thumbnail: '/images/products/product4.png',
         inStock: true,
-        saleTag: 'sale 50%'
+        saleTag: 'sale 50%',
+        rating: 5
+    },
+    {
+        name: 'Surjapur Mango',
+        price: '$14.99',
+        cutPrice: '',
+        status: true,
+        thumbnail: '/images/products/product4.png',
+        inStock: true,
+        saleTag: 'sale 50%',
+        rating: 5
+    },
+    {
+        name: 'Surjapur Mango',
+        price: '$14.99',
+        cutPrice: '',
+        status: true,
+        thumbnail: '/images/products/product4.png',
+        inStock: true,
+        saleTag: 'sale 50%',
+        rating: 5
+    },
+     {
+        name: 'Surjapur Mango',
+        price: '$14.99',
+        cutPrice: '',
+        status: true,
+        thumbnail: '/images/products/product4.png',
+        inStock: true,
+        saleTag: 'sale 50%',
+        rating: 5
     }
 ]
 
@@ -144,17 +178,57 @@ export const Category: CategoryType[] = [
 ]
 
 
-export const Ads : AdsType[] = [
+export const AdsData: AdsType[] = [
     {
-        thumbnail:'/images/ads/ad3.png',
-        to:''
+        thumbnail: '/images/ads/ad3.png',
+        to: ''
     },
     {
-        thumbnail:'/images/ads/ad1.png',
-        to:''
+        thumbnail: '/images/ads/ad1.png',
+        to: ''
     },
     {
-        thumbnail:'/images/ads/ad2.png',
-        to:''
+        thumbnail: '/images/ads/ad2.png',
+        to: ''
     }
+]
+
+
+export const HeroCarousel: heroCarouselType[] = [
+    {
+        thumbnail: '/images/hero/BG4.png',
+        to: ''
+    },
+    {
+        thumbnail: '/images/hero/BG4.png',
+        to: ''
+    },
+
+]
+
+
+export const FeatureSectionData: FeatureType[] = [
+    {
+        thumbnail: '/images/feature/Icon1.png',
+        heading: 'Free Shipping',
+        description: 'Free shipping with discount'
+    },
+    {
+        thumbnail: '/images/feature/Icon2.png',
+        heading: 'Great Support 24/7',
+        description: 'Instant access to Contact'
+    },
+    {
+        thumbnail: '/images/feature/Icon3.png',
+        heading: '100% Sucure Payment',
+        description: 'We ensure your money is save'
+    },
+    {
+        thumbnail: '/images/feature/Icon4.png',
+        heading: 'Money-Back Guarantee',
+        description: '30 days money-back'
+    },
+
+
+
 ]

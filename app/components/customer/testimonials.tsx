@@ -6,27 +6,28 @@ type Props = {}
 function index({ }: Props) {
   return (
     <SectionLayout
-      heading=""
+      isViewAll={false}
+      heading="What Our Customer Says"
     >
-        <div className="col-md-4">
-          <img src='/images/testimonials/Testimonial1.png'
-            alt="customer"
-            className='customer-image'
-          />
-        </div>
-        <div className="col-md-4">
-          <img src='/images/testimonials/Testimonial1.png'
-            alt="customer"
-            className='customer-image'
-          />
-        </div>
-        <div className="col-md-4">
-          <img src='/images/testimonials/Testimonial1.png'
-            alt="customer"
-            className='customer-image'
-          />
-        </div>
-        
+      <div className="col-md-4">
+        <img src='/images/testimonials/Testimonial1.png'
+          alt="customer"
+          className='customer-image'
+        />
+      </div>
+      <div className="col-md-4">
+        <img src='/images/testimonials/Testimonial1.png'
+          alt="customer"
+          className='customer-image'
+        />
+      </div>
+      <div className="col-md-4">
+        <img src='/images/testimonials/Testimonial1.png'
+          alt="customer"
+          className='customer-image'
+        />
+      </div>
+
     </SectionLayout>
   )
 }
