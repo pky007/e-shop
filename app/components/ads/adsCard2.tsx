@@ -1,6 +1,5 @@
-"use client"
+
 import "./index.css"
-import { ProductType } from "@/app/utils/type"
 
 type Props = {
     thumbnail:string

@@ -11,6 +11,17 @@ export type HeaderRightIconType = {
     icon: string
 }
 
+export type heroCarouselType = {
+    thumbnail:string,
+   to?:string
+}
+
+export type FeatureType = {
+    heading: string,
+    description: string,
+    thumbnail: string
+}
+
 export type ProductType = {
     name: string,
     price: string,
@@ -19,7 +30,8 @@ export type ProductType = {
     thumbnail: string,
     status: boolean,
     inStock: boolean,
-    saleTag?: string
+    saleTag?: string,
+    rating?:number
 }
 
 export type CategoryType = {
@@ -31,5 +43,10 @@ export type CategoryType = {
 
 export type AdsType = {
     thumbnail: string,
-    to?:string
+    to?:string,
+    text1:string,
+    text2?:string,
+    text3?:string,
+    isTimeType:boolean,
+
 }

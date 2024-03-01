@@ -5,9 +5,7 @@ type Props = {}
 
 function index({ }: Props) {
   return (
-    <SectionLayout
-      heading=""
-    >
+    <>
         <div className="col-md-6">
           <img src='/images/testimonials/customer.png'
             alt="customer"
@@ -28,7 +26,7 @@ function index({ }: Props) {
             </li>
           </ul>
         </div>
-    </SectionLayout>
+    </>
   )
 }
 

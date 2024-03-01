@@ -1,27 +1,23 @@
-import Image from "next/image"
-import "./index.css"
 import Product from "./product"
-import { Products } from "@/app/utils/json"
-import SectionLayout from "../section"
+import { ProductType } from "@/app/utils/type"
+import "./index.css"
 
-
-type Props = {}
-export default function index({ }: Props) {
+type Props = {
+    data: ProductType[]
+}
+export default function index({ data }: Props) {
     return (
-        <SectionLayout
-            heading="Featured Products"
-        >
+        <>
             {
-                Products?.map((item, index) => {
+                data.map((item, index) => {
                     return (
-                        <div key={index} className="col-md-3">
+                        <div key={index} className="col-md-3 mb-3">
                             <Product
                                 {...item}
                             />
                         </div>)
                 })
             }
-        </SectionLayout>
-
+        </>
     )
 }

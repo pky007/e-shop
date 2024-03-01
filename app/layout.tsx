@@ -4,6 +4,9 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Header from "./components/header"
+import Footer from "./components/footer";
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -24,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

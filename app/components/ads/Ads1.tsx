@@ -1,26 +1,25 @@
 import React from 'react'
-import SectionLayout from '../section'
-import AdsCard1 from "./addCard1"
-import { Ads } from '@/app/utils/json'
+import AdsCard1 from "./adsCard1"
+import { AdsType } from '@/app/utils/type'
 import "./index.css"
-type Props = {}
 
-function index({ }: Props) {
+type Props = {
+    data:AdsType[]
+}
+
+function index({data }: Props) {
     return (
-        <SectionLayout
-            heading=''
-        >
-            {Ads?.map((item, index) => {
+        <>
+            {data.map((item, index) => {
                 return (
                     <div key={index} className='col-md-4'>
                         <AdsCard1
-
                             {...item}
                         />
                     </div>
                 )
             })}
-        </SectionLayout>
+        </>
     )
 }
 
