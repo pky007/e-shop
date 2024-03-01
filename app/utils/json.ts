@@ -124,7 +124,7 @@ export const Products: ProductType[] = [
         saleTag: 'sale 50%',
         rating: 5
     },
-    {
+     {
         name: 'Surjapur Mango',
         price: '$14.99',
         cutPrice: '',
@@ -180,22 +180,17 @@ export const Category: CategoryType[] = [
 
 export const AdsData: AdsType[] = [
     {
-        thumbnail: '/images/ads/ad6.png',
-        to: '',
-        text1:'Best Deals',
-        text2:'Sale of the Month',
-        text3:'Started at $79.99',            
-        isTimeType:false
-
+        thumbnail: '/images/ads/ad3.png',
+        to: ''
     },
-    // {
-    //     thumbnail: '/images/ads/ad1.png',
-    //     to: ''
-    // },
-    // {
-    //     thumbnail: '/images/ads/ad2.png',
-    //     to: ''
-    // }
+    {
+        thumbnail: '/images/ads/ad1.png',
+        to: ''
+    },
+    {
+        thumbnail: '/images/ads/ad2.png',
+        to: ''
+    }
 ]
 
 
