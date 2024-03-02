@@ -1,0 +1,13 @@
+.in-stock-text{
+    background-color: var(--color-soft-primary);
+    color: var(--color-hard-primary);
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.product-name-container, .review-stripe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

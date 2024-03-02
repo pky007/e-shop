@@ -14,7 +14,7 @@ export default function index({ rating=0 }: Props) {
                     return (
                         <img
                             key={index}
-                            src="/images/products/star/star1.png"
+                            src={"/images/products/star/star1.png"}
                             alt="ok"
                         />
                     )
