@@ -11,10 +11,12 @@
   --color-hard-primary: #2C742F;
   --color-warning: #FF8A00;
   --color-danger: #EA4B48;
+  --color-soft-danger: #fa8583be;
   --color-white: #FFFFFF;
   --color-gray: #999999;
   --color-hard-gray: #1A1A1A;
   --color-soft-gray: #4D4D4D;
+  --color-primary-gray:#808080
 }
 
 * {
