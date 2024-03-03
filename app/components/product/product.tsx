@@ -36,7 +36,7 @@ export default function index({ name,
                 </div>
             </div>
             <div className="card-bottom-left">
-                <div className="product-name">{name}</div>
+                <div className="product-name body-14-400">{name}</div>
                 <div className="cart-container">
                     <div className="price_div">
                         <span className="price-product">{price} </span>

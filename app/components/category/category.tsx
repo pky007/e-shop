@@ -12,7 +12,7 @@ function index({ name, status, thumbnail }: CategoryType) {
                 width={80}
                 height={80}
             />
-            <h3 className="category-name">{name}</h3>
+            <h3 className="category-name body-18-500">{name}</h3>
 
         </div>
     )

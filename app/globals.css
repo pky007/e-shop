@@ -1,20 +1,22 @@
 :root {
   --heading1: 18px;
-  --heading2: 16px; 
+  --heading2: 16px;
   --heading3: 14px;
 
 
 
-/* colors */
---color-soft-primary:#84D187;
---color-primary:#00B207;
---color-hard-primary:#2C742F;
---color-warning:#FF8A00;
---color-danger:#EA4B48;
---color-white:#FFFFFF;
---color-gray:#999999;
---color-hard-gray:#1A1A1A;
---color-soft-gray:#4D4D4D;
+  /* colors */
+  --color-soft-primary: #84D187;
+  --color-primary: #00B207;
+  --color-hard-primary: #2C742F;
+  --color-warning: #FF8A00;
+  --color-danger: #EA4B48;
+  --color-soft-danger: #fa8583be;
+  --color-white: #FFFFFF;
+  --color-gray: #999999;
+  --color-hard-gray: #1A1A1A;
+  --color-soft-gray: #4D4D4D;
+  --color-primary-gray:#808080
 }
 
 * {
@@ -27,8 +29,147 @@ body {
   font-family: var(--font-poppins);
 }
 
+.h-72-600 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.h-56-600 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.h-48-600 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.h-40-600 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.h-36-600 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.h-32-600 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.h-72-400 {
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.h-56-400 {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.h-48-400 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.h-40-400 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.h-36-400{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.h-32-400 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.body-24-400{
+  font-size: 24px;
+  font-weight: 400;
+}
+.body-24-500{
+  font-size: 24px;
+  font-weight: 500;
+}
+.body-24-600{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+.body-20-400{
+  font-size: 20px;
+  font-weight: 400;
+}
+.body-20-500{
+  font-size: 20px;
+  font-weight: 500;
+}
+.body-20-600{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.body-18-400{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.body-18-500{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.body-18-600{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.body-16-400{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-16-500{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.body-16-600{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body-14-400{
+  font-size: 14px;
+  font-weight: 400;
+}
+.body-14-500{
+  font-size: 14px;
+  font-weight: 500;
+}
+.body-14-600{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
 /* html {
   zoom: 0.8;
 } */
-
-

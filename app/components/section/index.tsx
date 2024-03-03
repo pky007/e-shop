@@ -13,7 +13,7 @@ const SectionLayout: React.FC<LayoutProps> = ({ children, heading, isViewAll = f
         <div className='container'>
             <section className='row'>
                 <div className='section-heading-container'>
-                    <h3 className="layout-heading">{heading}</h3>
+                    <h3 className="layout-heading hb4">{heading}</h3>
                    {isViewAll && <ViewAllBtn />}
                 </div>
                 {children}
